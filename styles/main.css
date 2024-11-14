@@ -1,0 +1,61 @@
+/* Resetting */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: url(../images/640px-Coffeehouse\,_coffee_shop\,_or_café\,_IRAN\,_Mashhad_19.jpg)
+    no-repeat center center/cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header{
+    text-align: center;
+    
+    color: rgb(129, 195, 253);
+    font-size: 3rem;
+    letter-spacing: 0.25rem;
+    text-shadow: 3px 3px 12px black
+}
+
+.menu-container{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 40px;
+    width: 60%;
+    
+    
+}
+
+.ul-container{
+    background-color: rgba(0, 0, 0, 0.785);
+    border: 1px solid black;
+    margin: 0px auto;
+    box-shadow: 0 0 12px;
+    display: flex;
+    flex-direction: column;
+
+}
+li{
+    text-align: center;
+    list-style: none;
+    font-size: 1.2rem;
+    word-spacing: 5px;
+    padding: 2px 0;
+    color: aliceblue;
+
+}
+.menu-pic{
+    max-width: 20%;
+    margin: 10px auto;
+}
