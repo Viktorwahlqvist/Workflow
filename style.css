@@ -6,7 +6,7 @@
     list-style: none;
 }
 header{
-    background: url(images/logo-search-grid-2x.png);
+    background: url('images/logo-search-grid-2x.png');
     background-position: center -190px;
     width: 100%;
     min-height: 100vh;
